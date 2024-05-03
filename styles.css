@@ -1,0 +1,173 @@
+:root{
+    --tree-stem-color:#795548;
+	--tree-left-color:#388E3C;
+	--tree-right-color:#1B5E20;
+	
+}
+
+*{
+	font-family: 'Comic Sans MS', cursive;
+
+}
+
+.img-icon{
+  width: 100px;
+  height: 100px;
+  gap: 10px;
+  transition: transform .2s; 
+  border-radius: 50%;
+}
+
+.img-icon:hover{
+  transform: scale(1.2);
+}
+
+#portfolio{
+	margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+}
+
+.image-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: none;
+    bottom: 0;
+    z-index: 0;
+    transition: all 0.5s ease-in-out 0s;
+    background: linear-gradient(0deg, #262626, #2d2d2d 786px);
+    opacity: 0.8;
+}
+.fore{
+	left: -50%;
+}
+.banner{
+	width:100%;
+	background:url('hero-bg.jpg') no-repeat;
+	background-size:cover;
+	background-position:center;
+	min-height:600px;
+	
+  }
+  .banner h3{
+	text-align:center;
+	margin-top: 200px;
+	color:#53b309;
+	font-size:80px;
+	font-weight:700;
+	font-family: 'Comic Sans MS', cursive;
+   }
+  .banner p{
+	text-align:center;
+	color:#fff;
+	font-size:1.3em;
+	opacity:1;
+	font-family: 'Comic Sans MS', cursive;
+	
+  }
+  .opaque-navbar .container .navbar-header >a{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+  }
+  .opaque-navbar .container .navbar-collapse >ul >li >a{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:700;
+  }
+  
+  .opaque-navbar{
+	background-color:rgba(0,0,0,0);
+	border-bottom:1px solid #eee;
+	
+	transition : background-color 0.5s ease 0s;
+  }
+  .opaque-navbar.opaque {
+	  background-color:black ;
+	  border:0px;    
+	  transition: background-color .5s ease 0s;
+  }
+  
+  ul.dropdown-menu {
+	  background-color: black;
+  }
+  .abt{
+	text-align:center;
+  }
+
+.jumbotron{
+  margin-bottom: 0px;
+}
+
+  .abt .jumbotron  {
+	background-color:#e67e22;
+  }
+  .abt h3{
+	
+	color:white;
+	font-size:40px; 
+	
+  }
+
+  .rules{
+    font-size: 21px;
+  }
+   hr{
+	width:100px;
+	border-width:3px;
+	
+  }
+
+  @media (max-width: 992px) {
+	body
+	{
+	  background:white;
+	}
+	.opaque-navbar {
+	  background-color: black;
+	  height: 60px;
+	  transition: background-color .5s ease 0s;
+  }
+  
+  }
+
+.position-relative {
+    position: relative !important;
+}
+section {
+    scroll-margin-top: 70px;
+    position: relative;
+    z-index: 90;
+}
+.align-items-center {
+    align-items: center !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+
+.bg-dark{
+	background-color:#222222;
+	color:white;
+  }
+  
+  .primary{
+	border:1px solid #d35400;
+  }
+  
+  .my-font{
+	font-size:20px;
+	
+  }
+  .bg-dark{
+	padding-top:55px;
+	padding-bottom:30px;
+  }
