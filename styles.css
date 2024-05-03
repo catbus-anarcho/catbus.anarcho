@@ -10,9 +10,13 @@
 
 }
 
+.navbar-brand{
+  padding: 0px;
+}
+
 .img-icon{
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   gap: 10px;
   transition: transform .2s; 
   border-radius: 50%;
