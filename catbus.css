@@ -1,9 +1,9 @@
-/* .wrapper {
+.wrapper {
     position: absolute;
     left: 30%;
     top: 70%;
     transform: scale(1) translateX(-50%) translateY(-50%);
-  } */
+  }
 body .wrapper .catbody {
   -webkit-animation: gallop 0.8s ease-in-out infinite;
           animation: gallop 0.8s ease-in-out infinite;
@@ -30,6 +30,15 @@ body .wrapper .catbody {
     left: 35% !important;
     top: 70% !important;
     transform: scale(0.6) translate(-50%) translate(-50%) !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .wrapper {
+    position: absolute;
+    left: 30% !important;
+    top: 70% !important;
+    transform: scale(1) translateX(-50%) translateY(-50%) !important;
   }
 }
 
