@@ -30,7 +30,7 @@ body .wrapper .catbody {
     /* position: absolute; */
     left: 30% !important;
     top: 70% !important;
-    transform: scale(0.75) translateX(100%) translateY(-50%) !important;
+    transform: scale(0.75) translateX(-50%) translateY(-50%) !important;
   }
 }
 
