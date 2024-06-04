@@ -4,11 +4,435 @@
 	--tree-right-color:#1B5E20;
 	
 }
-
-*{
-	font-family: 'Comic Sans MS', "Comic Sans";
-
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
 }
+
+
+:root,:host, .spxThemeOverride {
+  --color_0: 255,255,255;
+  --color_1: 255,255,255;
+  --color_2: 0,0,0;
+  --color_3: 237,28,36;
+  --color_4: 0,136,203;
+  --color_5: 255,203,5;
+  --color_6: 114,114,114;
+  --color_7: 176,176,176;
+  --color_8: 255,255,255;
+  --color_9: 114,114,114;
+  --color_10: 176,176,176;
+  --color_11: 220,231,235;
+  --color_12: 162,178,182;
+  --color_13: 217,217,217;
+  --color_14: 45,52,51;
+  --color_15: 45,52,51;
+  --color_16: 229,240,254;
+  --color_17: 45,52,51;
+  --color_18: 98,103,102;
+  --color_19: 0,58,150;
+  --color_20: 0,29,75;
+  --color_21: 249,197,180;
+  --color_22: 243,167,143;
+  --color_23: 178,191,194;
+  --color_24: 158,59,27;
+  --color_25: 79,29,14;
+  --color_26: 210,172,247;
+  --color_27: 186,131,240;
+  --color_28: 128,21,232;
+  --color_29: 85,14,155;
+  --color_30: 43,7,77;
+  --color_31: 177,211,187;
+  --color_32: 127,168,139;
+  --color_33: 64,124,81;
+  --color_34: 43,83,54;
+  --color_35: 21,41,27;
+  --color_36: 255,255,255;
+  --color_37: 45,52,51;
+  --color_38: 162,178,182;
+  --color_39: 144,157,155;
+  --color_40: 98,103,102;
+  --color_41: 220,231,235;
+  --color_42: 178,191,194;
+  --color_43: 26,30,29;
+  --color_44: 207,220,225;
+  --color_45: 45,52,51;
+  --color_46: 45,52,51;
+  --color_47: 45,52,51;
+  --color_48: 45,52,51;
+  --color_49: 45,52,51;
+  --color_50: 220,231,235;
+  --color_51: 220,231,235;
+  --color_52: 45,52,51;
+  --color_53: 45,52,51;
+  --color_54: 98,103,102;
+  --color_55: 98,103,102;
+  --color_56: 162,178,182;
+  --color_57: 220,231,235;
+  --color_58: 220,231,235;
+  --color_59: 45,52,51;
+  --color_60: 45,52,51;
+  --color_61: 220,231,235;
+  --color_62: 220,231,235;
+  --color_63: 98,103,102;
+  --color_64: 98,103,102;
+  --color_65: 162,178,182;
+  --font_0: normal normal bold 90px/1.1em cormorantgaramond-light,cormorantgaramond,'cormorant garamond',serif;
+  --font_1: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+  --font_2: normal normal bold 72px/1.2em cormorantgaramond-light,cormorantgaramond,'cormorant garamond',serif;
+  --font_3: normal normal bold 55px/1.2em cormorantgaramond-light,cormorantgaramond,'cormorant garamond',serif;
+  --font_4: normal normal bold 48px/1.2em cormorantgaramond-light,cormorantgaramond,'cormorant garamond',serif;
+  --font_5: normal normal bold 32px/1.5em cormorantgaramond-light,cormorantgaramond,'cormorant garamond',serif;
+  --font_6: normal normal normal 24px/1.5em futura-lt-w01-book,futura-lt-w05-book,sans-serif;
+  --font_7: normal normal normal 20px/1.7em futura-lt-w01-book,futura-lt-w05-book,sans-serif;
+  --font_8: normal normal normal 16px/1.7em futura-lt-w01-book,futura-lt-w05-book,sans-serif;
+  --font_9: normal normal normal 14px/1.8em futura-lt-w01-book,futura-lt-w05-book,sans-serif;
+  --font_10: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+  --wix-ads-height: 50px;
+  --sticky-offset: 50px;
+  --wix-ads-top-height: 50px;
+  --vh-unit: calc( (100vh - 50px) / 100);
+  --site-width: 980px;
+  --above-all-z-index: 100000;
+  --portals-z-index: 100001;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --minViewportSize: 320;
+  --maxViewportSize: 1920;
+  --theme-spx-ratio: 1px;
+}
+
+
+.font_0 {
+  font: var(--font_0);
+  color: rgb(var(--color_15));
+  letter-spacing: 0em;
+}
+
+.font_1 {
+  font: var(--font_1);
+  color: rgb(var(--color_14));
+  letter-spacing: 0em;
+}
+
+.font_2 {
+  font: var(--font_2);
+  color: rgb(var(--color_15));
+  letter-spacing: 0em;
+}
+
+.font_3 {
+  font: var(--font_3);
+  color: rgb(var(--color_15));
+  letter-spacing: 0em;
+}
+
+.font_4 {
+  font: var(--font_4);
+  color: rgb(var(--color_15));
+  letter-spacing: 0em;
+}
+
+.font_5 {
+  font: var(--font_5);
+  color: rgb(var(--color_15));
+  letter-spacing: 0em;
+}
+
+.font_6 {
+  font: var(--font_6);
+  color: rgb(var(--color_15));
+  letter-spacing: 0em;
+}
+
+.font_7 {
+  font: var(--font_7);
+  color: rgb(var(--color_15));
+  letter-spacing: 0em;
+}
+
+.font_8 {
+  font: var(--font_8);
+  color: rgb(var(--color_15));
+  letter-spacing: 0em;
+}
+
+.font_9 {
+  font: var(--font_9);
+  color: rgb(var(--color_15));
+  letter-spacing: 0em;
+}
+
+.font_10 {
+  font: var(--font_10);
+  color: rgb(var(--color_14));
+  letter-spacing: 0em;
+}
+
+.color_0 {
+  color: rgb(var(--color_0));
+}
+
+.color_1 {
+  color: rgb(var(--color_1));
+}
+
+.color_2 {
+  color: rgb(var(--color_2));
+}
+
+.color_3 {
+  color: rgb(var(--color_3));
+}
+
+.color_4 {
+  color: rgb(var(--color_4));
+}
+
+.color_5 {
+  color: rgb(var(--color_5));
+}
+
+.color_6 {
+  color: rgb(var(--color_6));
+}
+
+.color_7 {
+  color: rgb(var(--color_7));
+}
+
+.color_8 {
+  color: rgb(var(--color_8));
+}
+
+.color_9 {
+  color: rgb(var(--color_9));
+}
+
+.color_10 {
+  color: rgb(var(--color_10));
+}
+
+.color_11 {
+  color: rgb(var(--color_11));
+}
+
+.color_12 {
+  color: rgb(var(--color_12));
+}
+
+.color_13 {
+  color: rgb(var(--color_13));
+}
+
+.color_14 {
+  color: rgb(var(--color_14));
+}
+
+.color_15 {
+  color: rgb(var(--color_15));
+}
+
+.color_16 {
+  color: rgb(var(--color_16));
+}
+
+.color_17 {
+  color: rgb(var(--color_17));
+}
+
+.color_18 {
+  color: rgb(var(--color_18));
+}
+
+.color_19 {
+  color: rgb(var(--color_19));
+}
+
+.color_20 {
+  color: rgb(var(--color_20));
+}
+
+.color_21 {
+  color: rgb(var(--color_21));
+}
+
+.color_22 {
+  color: rgb(var(--color_22));
+}
+
+.color_23 {
+  color: rgb(var(--color_23));
+}
+
+.color_24 {
+  color: rgb(var(--color_24));
+}
+
+.color_25 {
+  color: rgb(var(--color_25));
+}
+
+.color_26 {
+  color: rgb(var(--color_26));
+}
+
+.color_27 {
+  color: rgb(var(--color_27));
+}
+
+.color_28 {
+  color: rgb(var(--color_28));
+}
+
+.color_29 {
+  color: rgb(var(--color_29));
+}
+
+.color_30 {
+  color: rgb(var(--color_30));
+}
+
+.color_31 {
+  color: rgb(var(--color_31));
+}
+
+.color_32 {
+  color: rgb(var(--color_32));
+}
+
+.color_33 {
+  color: rgb(var(--color_33));
+}
+
+.color_34 {
+  color: rgb(var(--color_34));
+}
+
+.color_35 {
+  color: rgb(var(--color_35));
+}
+
+.color_36 {
+  color: rgb(var(--color_36));
+}
+
+.color_37 {
+  color: rgb(var(--color_37));
+}
+
+.color_38 {
+  color: rgb(var(--color_38));
+}
+
+.color_39 {
+  color: rgb(var(--color_39));
+}
+
+.color_40 {
+  color: rgb(var(--color_40));
+}
+
+.color_41 {
+  color: rgb(var(--color_41));
+}
+
+.color_42 {
+  color: rgb(var(--color_42));
+}
+
+.color_43 {
+  color: rgb(var(--color_43));
+}
+
+.color_44 {
+  color: rgb(var(--color_44));
+}
+
+.color_45 {
+  color: rgb(var(--color_45));
+}
+
+.color_46 {
+  color: rgb(var(--color_46));
+}
+
+.color_47 {
+  color: rgb(var(--color_47));
+}
+
+.color_48 {
+  color: rgb(var(--color_48));
+}
+
+.color_49 {
+  color: rgb(var(--color_49));
+}
+
+.color_50 {
+  color: rgb(var(--color_50));
+}
+
+.color_51 {
+  color: rgb(var(--color_51));
+}
+
+.color_52 {
+  color: rgb(var(--color_52));
+}
+
+.color_53 {
+  color: rgb(var(--color_53));
+}
+
+.color_54 {
+  color: rgb(var(--color_54));
+}
+
+.color_55 {
+  color: rgb(var(--color_55));
+}
+
+.color_56 {
+  color: rgb(var(--color_56));
+}
+
+.color_57 {
+  color: rgb(var(--color_57));
+}
+
+.color_58 {
+  color: rgb(var(--color_58));
+}
+
+.color_59 {
+  color: rgb(var(--color_59));
+}
+
+.color_60 {
+  color: rgb(var(--color_60));
+}
+
+.color_61 {
+  color: rgb(var(--color_61));
+}
+
+.color_62 {
+  color: rgb(var(--color_62));
+}
+
+.color_63 {
+  color: rgb(var(--color_63));
+}
+
+.color_64 {
+  color: rgb(var(--color_64));
+}
+
+.color_65 {
+  color: rgb(var(--color_65));
+}
+
 
 .navbar-brand{
   padding: 0px;
@@ -71,14 +495,14 @@
 	color:#53b309;
 	font-size:80px;
 	font-weight:700;
-	font-family: 'Comic Sans MS', cursive;
+	/* font-family: 'Comic Sans MS', cursive; */
    }
   .banner p{
 	text-align:center;
 	color:#fff;
 	font-size:1.3em;
 	opacity:1;
-	font-family: 'Comic Sans MS', cursive;
+	/* font-family: 'Comic Sans MS', cursive; */
 	
   }
   .opaque-navbar .container .navbar-header >a{
