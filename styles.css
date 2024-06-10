@@ -490,6 +490,7 @@ body{
 	background:url('hero-bg.jpg') no-repeat;
 	background-size:cover;
 	background-position:center;
+  background-position-x: center;
 	min-height:600px;
 	
   }
@@ -620,5 +621,9 @@ section {
   @media screen and (max-width: 600px){
     .tweet{
       width: 200px !important;
+      margin-left: 0 !important;
+    }
+    .bg-dark{
+      background-position-x: center;
     }
   }
