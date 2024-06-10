@@ -454,6 +454,11 @@ body{
     .nine{
       margin-top: 20px;
     }
+    .font_0{
+      span{
+        font-size: 25px !important;
+      }
+    }
 }
 
 .img-icon:hover{
@@ -482,7 +487,6 @@ body{
 	left: -50%;
 }
 .banner{
-	width:100%;
 	background:url('hero-bg.jpg') no-repeat;
 	background-size:cover;
 	background-position:center;
@@ -540,7 +544,7 @@ body{
 }
 
   .abt .jumbotron  {
-	background-color:#38AD46;
+	background-color:rgb(58 41 106 / 64%);
   }
   .abt h3{
 	
@@ -593,8 +597,11 @@ section {
 
 
 .bg-dark{
-	background-color:#222222;
+	/* background-color:#222222; */
+  background-image: url("bgcatbus.jpeg");
+  background-size: cover;
 	color:white;
+
   }
   
   .primary{
@@ -608,4 +615,10 @@ section {
   .bg-dark{
 	padding-top:55px;
 	padding-bottom:30px;
+  }
+
+  @media screen and (max-width: 600px){
+    .tweet{
+      width: 200px !important;
+    }
   }
